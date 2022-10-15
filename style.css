@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 14px;
+    height: 100%;
+    background-color: lightgrey;
+    line-height: 1;
+    font-family: "Arial Unicode MS";
+    overflow:hidden;
+}
+.main{
+    max-width: 440px;
+    margin: auto;
+    padding: 150px 0;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease 0s;
+}
+
+.main.close{
+    opacity: 0;
+    visibility: hidden;
+}
+.container{
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid grey;
+ }
+
+.form_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 30px 20px;
+
+}
+.form_item{
+    margin: 20px ;
+}
+.form_label{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.from_input{
+    height: 20px;
+    width: 384px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+}
+.form_btn{
+    min-width: 50px;
+    min-height: 20px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    margin: 0 180px 20px ;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+
+}
+.form_btn:hover {
+    background-color: lightgrey;
+    color: grey;
+}
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: auto;
+    transition: all 0.5s ease 0s;
+}
+.popup.open{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_body{
+    min-height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup_content{
+    background-color: white;
+    color: black;
+    max-width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+
+
+}
+.text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+.container_btn{
+    text-align: right;
+}
+.btn{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100px;
+    min-height: 20px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    background-color: whitesmoke;
+}
+.btn:hover {
+    background-color: lightgrey;
+    color: grey;
+}
+.btn_cancel{
+    padding: 7px 9px;
+}
+
+#massage{
+    position: relative;
+    text-align: center;
+    top: 100px;
+
+
+}
+.hello{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+    overflow:hidden;
+
+}
+.img{
+    border-radius: 3px;
+    max-width: 100%;
+}
